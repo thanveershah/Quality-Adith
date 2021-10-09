@@ -11708,3 +11708,28 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+.distribution {
+  padding-bottom: 50px;
+}
+
+.distribution h2 {
+  margin-bottom: 45px;
+  font-size: 2.5rem;
+}
+
+/* .swiper {
+  width: 1200px;
+  height: 100px;
+  margin: auto;
+} */
+
+.swiper .swiper-slide img {
+  height: 100px;
+  width: auto;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: auto !important;
+}
