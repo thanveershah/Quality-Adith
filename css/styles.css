@@ -3055,7 +3055,6 @@ fieldset:disabled .btn {
 .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-
 }
 
 .btn-primary:disabled,
@@ -11300,7 +11299,8 @@ p {
   }
 }
 header.masthead {
-  margin-top: 116px;
+  margin-top: 86px;
+
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
