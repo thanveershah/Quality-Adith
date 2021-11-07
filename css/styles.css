@@ -11226,8 +11226,8 @@ p {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  /* padding-top: 1rem; */
+  /* padding-bottom: 1rem; */
   /* background-color: #212529; */
   background: black;
 }
@@ -11254,21 +11254,21 @@ p {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #fff;
+  color: #000;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: white;
+  color: black;
   font-weight: bold;
 }
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    /* padding-top: 1.5rem; */
+    /* padding-bottom: 1.5rem; */
     border: none;
-    background-color: black;
+    background-color: white;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11280,9 +11280,9 @@ p {
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: black;
+    /* padding-top: 1rem;
+    padding-bottom: 1rem; */
+    background-color: white;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -11306,7 +11306,8 @@ header.masthead {
   text-align: center;
   color: #fff;
   /* background-image: url("../assets/img/header-bg.jpg"); */
-  background: linear-gradient(45deg, #000000c7, #00000078), url(../assets/img/pexels-anete-lusina-4792488.jpg);
+  /* background: linear-gradient(45deg, #000000c7, #00000078), url(../assets/img/banner-1.jpg); */
+  background: linear-gradient(45deg, #0000008c, #00000059), url(../assets/img/banner-1.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
