@@ -11229,7 +11229,7 @@ p {
   /* padding-top: 1rem; */
   /* padding-bottom: 1rem; */
   /* background-color: #212529; */
-  background: black;
+  background: white;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11238,6 +11238,8 @@ p {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   font-weight: 700;
+  background: #183679;
+  color: white;
 }
 #mainNav .navbar-brand {
   color: #ffc800;
