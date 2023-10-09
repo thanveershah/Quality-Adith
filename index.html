@@ -70,6 +70,12 @@
                </ul>
             </div>
          </div>
+         <div style="position: absolute; right: 20px; display: flex; top: 10px">
+            <p class="mb-2 mx-2">
+               Contact: <a href="mailto:sales@qtsservice.com" style="color: black">sales@qtsservice.com</a>
+            </p>
+            <p class="mb-2"><a href="tel:02 550 6041" style="color: black">02 550 6041</a></p>
+         </div>
       </nav>
       <!-- Masthead-->
       <header class="masthead">
@@ -425,15 +431,24 @@
                <h2 class="section-heading text-uppercase">Contact Us</h2>
                <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
             </div>
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- * * SB Forms Contact Form * *-->
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- This form is pre-integrated with SB Forms.-->
-            <!-- To make this form functional, sign up at-->
-            <!-- https://startbootstrap.com/solution/contact-forms-->
-            <!-- to get an API token!-->
+
             <form id="contactForm" action="https://formspree.io/f/xzboprje" method="POST">
-               <div class="row align-items-stretch mb-5">
+               <div class="row align-items-stretch mt-5">
+                  <div class="col-md-6 m-auto">
+                     <div class="form-group">
+                        <p class="mb-2 text-white">Quality Technical Services</p>
+                        <p class="mb-2 text-white">02 550 6041</p>
+                        <iframe
+                           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3634.9686294391854!2d54.468050299999994!3d24.347585399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e405b38dc721b%3A0x3a0047ce142b66e!2sQuality%20Technical%20Services!5e0!3m2!1sen!2sae!4v1696847384351!5m2!1sen!2sae"
+                           width="600"
+                           height="450"
+                           style="border: 0"
+                           allowfullscreen=""
+                           loading="lazy"
+                           referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                     </div>
+                  </div>
                   <div class="col-md-6 m-auto">
                      <div class="form-group">
                         <!-- Name input-->
@@ -491,12 +506,14 @@
                            A message is required.
                         </div>
                      </div>
+                     <div class="text-left mt-5">
+                        <button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">
+                           Send Message
+                        </button>
+                     </div>
                   </div>
                </div>
-               <!-- Submit success message-->
-               <!---->
-               <!-- This is what your users will see when the form-->
-               <!-- has successfully submitted-->
+
                <div class="d-none" id="submitSuccessMessage">
                   <div class="text-center text-white mb-3">
                      <div class="fw-bolder">Form submission successful!</div>
@@ -510,11 +527,6 @@
                   <div class="text-center text-danger mb-3">Error sending message!</div>
                </div>
                <!-- Submit Button-->
-               <div class="text-center">
-                  <button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">
-                     Send Message
-                  </button>
-               </div>
             </form>
          </div>
       </section>
